@@ -1,17 +1,45 @@
 @charset "UTF-8";
 
+body {
+	background-image: url("../images/commons/back.gif");
+}
 /********************* header **************************/
 .header {
 	width: 100%;
 	height: 67px;
-	background-color: black;
+	background-image: url("../images/commons/header_bg.png");
+	background-repeat: repeat-x;
 }
 
 .header>div {
-	background-color: firebrick;
+	background-color: gray;
 	margin: 0 auto;
 	height: 100%;
 	width: 65%;
+}
+
+.logo {
+	/* border: 1px solid red; */
+	padding: 13px 0;
+	box-sizing: border-box;
+	float: left;
+}
+
+nav {
+	float: left;
+	margin-left: 100px;
+}
+.main_menu > li {
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+	line-height: 67px;
+}
+
+.main_menu > li > a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
 }
 /********************* main **************************/
 .main {
